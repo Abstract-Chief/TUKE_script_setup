@@ -2,7 +2,7 @@ CC=gcc
 CCFLAGS=-g -Wall
 LIB= -lsuperkarel -lcurses 
 
-karl%: karl%.c
+task_%: task_%.c
 	$(CC) $(CCFLAGS) $< -o $@ $(LIB)
 	./$@
 	rm $@
