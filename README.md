@@ -1,1 +1,3 @@
-# TUKE_script_setup
+## Use
+
+chmod +x setup.sh ; ./setup.sh 
