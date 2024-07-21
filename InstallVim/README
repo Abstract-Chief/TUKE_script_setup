@@ -1,0 +1,2 @@
+📦 Setup
+sudo apt install git && git clone https://github.com/AbstractShief/UpdateVim && cd UpdateVim && ./InstallVim.sh

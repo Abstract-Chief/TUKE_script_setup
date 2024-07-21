@@ -1,0 +1,25 @@
+This project will help you make the robot Karel.
+you write the code for your laboratory work in accordance with the file names, first task karl1.c
+to run your karl:
+   write in the terminal while in this folder make karl(N) 
+   (N) is the job number
+for example make karl1 will start the first task
+
+Tento projekt vám pomôže vytvoriť robota karela.
+napíšete kód svojej laboratórnej práce v súlade s názvami súborov, prvá úloha karl1.c
+ak chcete spustiť svojho karla, napíšte do terminálu, zatiaľ čo v tomto priečinku vytvorte karl(N)
+(N) je číslo úlohy
+napríklad urob karl1
+spustí prvú úlohu
+
+цей проект допоможе зробити робота карела.
+код вашої лабораторної роботи ви пишіть відповідно до назв файлів, перше завдання в файлi karl1.c
+щоб запустити свого карла напишіть в терміналі, перебуваючи в цій папці make karl(N)
+(N) – це номер завдання
+наприклад make karl1
+це запустить перше завдання
+
+go to ~/karel_project
+
+created by @AbstractShief - telegram 
+

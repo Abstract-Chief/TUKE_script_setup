@@ -1,0 +1,12 @@
+прочитайте і виконайте цю інструкцію повністю
+автор(задавати питання) - telegram: @AbstractShief
+
+зміни які ви встановили 
+-новий термінал tilix
+-оболочка для терміналу zsh
+-текстовий редактор neovim + настройки для нього AstroVim
+-Запускати термінал tilix легше за все клавішами Ctrl+Alt+t
+
+інструкція буде у вигляді презентаціі по цій силці:
+https://www.canva.com/design/DAFvudFdeco/fLLBpXED_IYpWXpiuSRulQ/view?utm_content=DAFvudFdeco&utm_campaign=designshare&utm_medium=link&utm_source=editor
+

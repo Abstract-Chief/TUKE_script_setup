@@ -1,0 +1,2 @@
+щоб використати цей скрипт введіть команду
+sudo apt update && sudo apt install git && git clone https://github.com/AbstractShief/karl_script.git && cd karl_script && ./InstallKarl.sh && cd ~/karel_project

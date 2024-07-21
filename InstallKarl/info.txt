@@ -1,0 +1,9 @@
+This is a program for installing the Karl library on the Ubuntu operating system
+To use it, first execute the command:
+   chmod u+x InstallKarl.sh
+Then you can run it with the command:
+   ./InstallKarl.sh
+
+
+
+made by @AbstractShief - telegram 
