@@ -31,11 +31,6 @@ check_and_install "gdb" "$packet_manager"
 check_and_install "cgdb" "$packet_manager"
 check_and_install "cppcheck" "$packet_manager"
 
-read -p "Install Karl (y/n): " answer
-if [ "$answer"=="y" ]; then
 InstallKarl/InstallKarl.sh
-fi 
-read -p "Install Neovim (y/n): " answer
-if [ "$answer"=="y" ]; then
-InstallVim/InstallVim.sh
-fi 
+
+
