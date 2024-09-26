@@ -32,7 +32,7 @@ if [ -d ~/karel-the-robot ]; then
       exit 1
    fi
 fi
-git clone https://git.kpi.fei.tuke.sk/kpi/karel-the-robot.git ~/karel-the-robot> /dev/null
+git clone git@github.com:Abstract-Chief/KarelRobot.git ~/KarelRobot> /dev/null
 if [ $? -eq 0 ]; then
    echo ---install Karel Files OK
 else
@@ -46,14 +46,14 @@ else
    echo ---install Karel Help Files FAIL
    exit 1
 fi
-mkdir ~/karel-the-robot/build 
-cd ~/karel-the-robot/build 
+mkdir ~/KarelRobot/build 
+cd ~/KarelRobot/build 
 cmake .. > /dev/null
 sudo make
 sudo make install 
 make clean
 cd -
-rm -rf ~/karel-the-robot
+rm -rf ~/KarelRobot
 if [ $? -eq 0 ]; then
    echo ---install Karel complete 
 else
