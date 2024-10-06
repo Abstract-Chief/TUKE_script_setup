@@ -25,7 +25,7 @@ if [ -d ~/karel-the-robot ]; then
       exit 1
    fi
 fi
-git clone https://github.com/Abstract-Chief/TUKE_script_setup.git ~/KarelRobot> /dev/null
+git clone https://github.com/Abstract-Chief/KarelRobot.git ~/KarelRobot> /dev/null
 if [ $? -eq 0 ]; then
    echo ---install Karel Files OK
 else
