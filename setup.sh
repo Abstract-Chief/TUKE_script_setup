@@ -21,15 +21,13 @@ check_and_install() {
     fi
 }
 
-packet_manager = "apt-get"
-
-check_and_install "git" "$packet_manager"
-check_and_install "make" "$packet_manager"
-check_and_install "gcc" "$packet_manager"
-check_and_install "valgrind" "$packet_manager"
-check_and_install "gdb" "$packet_manager"
-check_and_install "cgdb" "$packet_manager"
-check_and_install "cppcheck" "$packet_manager"
+check_and_install "git" "apt-get"
+check_and_install "make" "apt-get"
+check_and_install "gcc" "apt-get"
+check_and_install "valgrind" "apt-get"
+check_and_install "gdb" "apt-get"
+check_and_install "cgdb" "apt-get"
+check_and_install "cppcheck" "apt-get"
 
 InstallKarl/InstallKarl.sh
 
