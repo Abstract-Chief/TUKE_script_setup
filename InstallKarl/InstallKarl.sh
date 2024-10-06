@@ -1,11 +1,4 @@
 #!/bin/bash
-sudo apt-get update 
-if [ $? -eq 0 ]; then
-   echo ---update apt OK
-else
-   echo ---update apt FAIL 
-   exit 1
-fi
 sudo apt-get install git 
 if [ $? -eq 0 ]; then
    echo ---install git OK
