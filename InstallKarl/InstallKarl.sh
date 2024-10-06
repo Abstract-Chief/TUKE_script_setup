@@ -1,12 +1,12 @@
 #!/bin/bash
-sudo apt update 
+sudo apt-get update 
 if [ $? -eq 0 ]; then
    echo ---update apt OK
 else
    echo ---update apt FAIL 
    exit 1
 fi
-sudo apt install git 
+sudo apt-get install git 
 if [ $? -eq 0 ]; then
    echo ---install git OK
 else
@@ -39,7 +39,7 @@ else
    echo ---install Karel Files FAIL
    exit 1
 fi
-sudo apt install gcc cmake make gettext  pkg-config check > /dev/null
+sudo apt-get install gcc cmake make gettext  pkg-config check > /dev/null
 if [ $? -eq 0 ]; then
    echo ---install Karel Help Files OK
 else
